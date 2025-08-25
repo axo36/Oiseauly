@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔐 Connexion</h1>
+  <form id="loginForm">
+    <label>Email :</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label>Mot de passe :</label><br>
+    <input type="password" id="password" required><br><br>
+
+    <button type="submit">Se connecter</button>
+    <p>Pas encore inscrit ? <a href="signup.html">Créer un compte</a></p>
+  </form>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      alert("Connexion simulée pour : " + email);
+    });
+  </script>
+</body>
+</html>
