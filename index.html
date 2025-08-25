@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chasse aux Oiseaux</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🦜 Chasse aux Oiseaux</h1>
+
+  <div id="controls">
+    <label for="season">Saison :</label>
+    <select id="season">
+      <option value="printemps">Printemps</option>
+      <option value="été">Été</option>
+      <option value="automne">Automne</option>
+      <option value="hiver">Hiver</option>
+    </select>
+
+    <label for="activity">Activité :</label>
+    <select id="activity">
+      <option value="camping">Camping</option>
+      <option value="randonnée">Randonnée</option>
+      <option value="promenade">Promenade</option>
+      <option value="ski">Ski</option>
+    </select>
+
+    <button onclick="findBirds()">Chercher les oiseaux</button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
