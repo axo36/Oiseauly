@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Carte des oiseaux - Oiseo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <select onchange="navigate(this)">
+      <option value="">Menu</option>
+      <option value="menu.html">Accueil</option>
+      <option value="carte.html">Carte des oiseaux</option>
+    </select>
+  </nav>
+
+  <div class="container">
+    <h2>🌍 Carte des oiseaux</h2>
+
+    <div class="birdCard">
+      <img src="images/mesange.jpg" alt="Mésange">
+      <h3>Mésange charbonnière</h3>
+      <p>📍 Alpes, Vosges</p>
+      <label><input type="checkbox"> Trouvé</label>
+      <button>📷 Prendre une photo</button>
+    </div>
+
+    <div class="birdCard">
+      <img src="images/rougegorge.jpg" alt="Rougegorge">
+      <h3>Rougegorge familier</h3>
+      <p>📍 Forêts, jardins</p>
+      <label><input type="checkbox"> Trouvé</label>
+      <button>📷 Prendre une photo</button>
+    </div>
+  </div>
+</body>
+</html>
