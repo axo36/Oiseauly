@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mésange charbonnière",
+    "season": ["printemps", "été"],
+    "activity": ["randonnée", "promenade"]
+  },
+  {
+    "name": "Rouge-gorge",
+    "season": ["automne", "hiver"],
+    "activity": ["promenade", "ski"]
+  },
+  {
+    "name": "Hirondelle rustique",
+    "season": ["printemps", "été"],
+    "activity": ["camping", "randonnée"]
+  },
+  {
+    "name": "Pic épeiche",
+    "season": ["automne", "hiver"],
+    "activity": ["randonnée", "promenade"]
+  }
+]
